@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ### bitcoin_regression_v1
 
-![Screenshot from 2024-01-31 22-00-54](./Screenshot from 2024-01-31 22-00-54.png)
+![bitcoin_regression_v1](./bitcoin_regression_v1.png)
 
 
 
