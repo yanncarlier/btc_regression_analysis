@@ -1,4 +1,4 @@
-![Screenshot from 2024-01-31 22-00-54](/home/y/MY_PROJECTS/regression_analysis/Screenshot from 2024-01-31 22-00-54.png)
+![Screenshot from 2024-01-31 22-00-54](./Screenshot from 2024-01-31 22-00-54.png)
 
 
 
