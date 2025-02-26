@@ -15,21 +15,9 @@ pip install -r requirements.txt
 
 
 
+## Bitcoin price forecast
 
-
-
-
-
-
-### bitcoin_price_history_extrapolated_v2
-
-![bitcoin_price_history_extrapolated_v2](./bitcoin_price_history_extrapolated_v2.png)
-
-### bitcoin_price_history_extrapolated_v1
-
-![bitcoin_price_history_extrapolated_v1](./bitcoin_price_history_extrapolated_v1.png)
-
-
+![Bitcoin_price_forecast](./Bitcoin_price_forecast.png)
 
 
 
