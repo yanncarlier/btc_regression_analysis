@@ -1,48 +1,35 @@
+# Bitcoin Price Analysis – Halving Cycles & Power-Law Trend
 
+Simple, clean Python scripts that visualize Bitcoin’s price history and long-term growth using real monthly data.
 
-```
+All charts are generated from a single CSV file: **`bitcoin_monthly_prices.csv`**
+
+## Generated Charts
+
+### Bitcoin Halving Cycle Chart
+Monthly price on log scale with every Bitcoin halving marked  
+![Halving Cycle Chart](./btc_halving_cycle_chart.png)
+
+### Bitcoin Power-Law Trend (Log-Linear Regression)
+Straight red line = true long-term exponential / power-law growth  
+2030 prediction: **~$5–6 million** (depending on exact filtering)
+
+![Power-Law Trend](./btc_power_law_trend.png)
+
+## Scripts
+
+| File                          | What it does                                                                 |
+|-------------------------------|-------------------------------------------------------------------------------|
+| `btc_halving_cycle_chart.py`  | Plots price history (log scale) + vertical lines at each halving              |
+| `btc_power_law_trend.py`      | Fits log-linear regression → straight trend on log scale + 2030 extrapolation |
+
+## Quick Start
+
+```bash
 python -m venv .venv
 source .venv/bin/activate
-pip3 install matplotlib pandas sklearn 
-pip3 install -U scikit-learn scipy matplotlib
-pip3 install scikit-learn
+pip install pandas matplotlib scikit-learn
 
-
-pip3 freeze > requirements.txt
-pip install -r requirements.txt
-
-```
-
-
-
-## Bitcoin price forecast
-
-![Bitcoin_price_forecast](./Bitcoin_price_forecast.png)
-
-
-
-### bitcoin_price_history_v1
-
-![bitcoin_price_history_v1](./bitcoin_price_history_v1.png)
-
-### bitcoin_regression_v1
-
-![bitcoin_regression_v1](./bitcoin_regression_v1.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Thanks to https://x.com/i/grok,  https://pi.ai/talk and https://chat.openai.com/ 3.5
+# Generate the charts
+python btc_halving_cycle_chart.py
+python btc_power_law_trend.py
